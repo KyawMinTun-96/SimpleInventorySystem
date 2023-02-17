@@ -115,6 +115,7 @@
             // menuStrip1
             // 
             this.menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.btnMenu});
@@ -140,7 +141,7 @@
             // 
             this.setupToolStripMenuItem.Image = global::GalaxyProgramTest.Properties.Resources.Setup;
             this.setupToolStripMenuItem.Name = "setupToolStripMenuItem";
-            this.setupToolStripMenuItem.Size = new System.Drawing.Size(166, 30);
+            this.setupToolStripMenuItem.Size = new System.Drawing.Size(184, 34);
             this.setupToolStripMenuItem.Text = "Setup";
             this.setupToolStripMenuItem.Click += new System.EventHandler(this.setupToolStripMenuItem_Click);
             // 
@@ -148,7 +149,7 @@
             // 
             this.saleToolStripMenuItem.Image = global::GalaxyProgramTest.Properties.Resources.Sale;
             this.saleToolStripMenuItem.Name = "saleToolStripMenuItem";
-            this.saleToolStripMenuItem.Size = new System.Drawing.Size(166, 30);
+            this.saleToolStripMenuItem.Size = new System.Drawing.Size(184, 34);
             this.saleToolStripMenuItem.Text = "Sale";
             this.saleToolStripMenuItem.Click += new System.EventHandler(this.saleToolStripMenuItem_Click);
             // 
@@ -156,7 +157,7 @@
             // 
             this.purchaseToolStripMenuItem.Image = global::GalaxyProgramTest.Properties.Resources.purchase_icon;
             this.purchaseToolStripMenuItem.Name = "purchaseToolStripMenuItem";
-            this.purchaseToolStripMenuItem.Size = new System.Drawing.Size(166, 30);
+            this.purchaseToolStripMenuItem.Size = new System.Drawing.Size(184, 34);
             this.purchaseToolStripMenuItem.Text = "Purchase";
             this.purchaseToolStripMenuItem.Click += new System.EventHandler(this.purchaseToolStripMenuItem_Click);
             // 
@@ -164,7 +165,7 @@
             // 
             this.reportToolStripMenuItem.Image = global::GalaxyProgramTest.Properties.Resources.report;
             this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
-            this.reportToolStripMenuItem.Size = new System.Drawing.Size(166, 30);
+            this.reportToolStripMenuItem.Size = new System.Drawing.Size(184, 34);
             this.reportToolStripMenuItem.Text = "Report";
             this.reportToolStripMenuItem.Click += new System.EventHandler(this.reportToolStripMenuItem_Click);
             // 
@@ -180,7 +181,7 @@
             this.Title.Name = "Title";
             this.Title.Size = new System.Drawing.Size(1600, 35);
             this.Title.TabIndex = 4;
-            this.Title.Text = "Galaxy Programming Test";
+            this.Title.Text = "Simple Inventory System";
             this.Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // mainPanel
